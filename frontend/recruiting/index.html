@@ -22,7 +22,8 @@
 		
 		<!-- css -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!--<link rel="stylesheet" href="assets/css/font-awesome.min.css">-->
+		<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/style.css" media="screen"/>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -109,17 +110,17 @@
 
 			<div class="content-block parallax" id="parallax">
 				<div class="container text-center">
-					<h1>所谓一张船票，愿景是希望成为一个让知识和创意更好地传播的平台。目前看起来，嗯，就是一个技术社团，正在招新欢迎大家报名。哦对，我们不止是做工程的，我们还搞算法，重要的事情说3遍。</h1>
-					<a href="http://arkticket.tech/d/5--" class="btn btn-o-white btn-lg">More</a>
+					<h1 style="font-size:28px;">所谓一张船票,旨在搭建一个让知识和创意更好地传播的平台,通过线下沙龙等形式让人们发现一些就在身边的有趣领域。<br/><br/>好吧，目前就是一个技术社团，正在招新欢迎大家报名。最后，我们不止是做工程的，我们还搞算法，搞算法，搞算法。重要的事情说3遍。</h1>
+					<a href="http://arkticket.tech/d/5--" class="btn btn-o-white btn-lg">了解更多</a>
 				</div>
 			</div><!-- #parallax -->
 			
 			<div class="content-block" id="portfolio">
 				<div class="container">
 					<header class="block-heading cleafix">
-						<a href="http://arkticket.tech/t/projects" class="btn btn-o btn-lg pull-right">View All</a>
-						<h1>Our Latest Works</h1>
-						<p>Take a look at some of our recent projects</p>
+						<a href="http://arkticket.tech/t/projects" class="btn btn-o btn-lg pull-right">更多</a>
+						<h1>最新工作</h1>
+						<p>社团目前活跃的项目</p>
 					</header>
 					<section class="block-body">
 						<div class="row">
@@ -146,30 +147,29 @@
 			<div class="content-block parallax" id="services">
 				<div class="container text-center">
 					<header class="block-heading cleafix">
-						<h1>Our Departments</h1>
-						<p>A little about our architecture</p>
+						<h1>部门</h1>
 					</header>
 					<section class="block-body">
 						<div class="row">
 							<div class="col-md-4">
 								<div class="service">
-									<i class="fa fa-send-o"></i>
+									<i class="fa fa-code"></i>
 									<h2>研发</h2>
 									<p>参与开发有偿的外包&内部项目（目前主要是web方向），组队参加黑客松等比赛。</p>
 								</div>
 							</div>
 							<div class="col-md-4">
 								<div class="service">
-									<i class="fa fa-heart-o"></i>
+									<i class="fa fa-cogs"></i>
 									<h2>算法</h2>
 									<p>参与研发内部算法相关项目（目前主要是计算机视觉，数据挖掘），定期举办内部算法竞赛并组织有兴趣者刷OJ和kaggle，参加一些算法相关的竞赛。</p>
 								</div>
 							</div>
 							<div class="col-md-4">
 								<div class="service">
-									<i class="fa fa-camera-retro"></i>
+									<i class="fa fa-line-chart"></i>
 									<h2>商务拓展，外联，人资</h2>
-									<p>负责对外项目洽谈，联系赞助，社团运维工作等。社团背后创业项目的运维。</p>
+									<p>负责对外项目洽谈，联系赞助，社团运维工作等。一张船票创业项目的运维。</p>
 								</div>
 							</div>
 						</div>
@@ -181,9 +181,9 @@
 			<div class="content-block" id="blog">
 				<div class="container">
 					<header class="block-heading cleafix">
-						<a href="http://arkticket.tech/" class="btn btn-o btn-lg pull-right">View All</a>
-						<h1>From the Blog</h1>
-						<p>Keep up with the latest happenings.</p>
+						<a href="http://arkticket.tech/" class="btn btn-o btn-lg pull-right">更多</a>
+						<h1>博客</h1>
+						<p>关注我们的最新动态.</p>
 					</header>
 				</div>
 			</div><!-- #blog -->
@@ -191,21 +191,29 @@
 			<div class="content-block" id="contact">
 				<div class="container text-center">
 					<header class="block-heading cleafix">
-						<h1>Contact Us</h1>
-						<p>Feel free to drop us a line.</p>
+						<h1>加入我们</h1>
 					</header>
 					<section class="block-body">
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
 								<form class="" role="form">
 									<div class="form-group">
-								    	<input type="email" class="form-control form-control-white" id="subject" placeholder="Your Name" required>
+								    	<input class="form-control form-control-white" id="subject" placeholder="你的名字" required>
 								  	</div>
 								    <div class="form-group">
-								    	<input type="email" class="form-control form-control-white" id="exampleInputEmail2" placeholder="Enter email" required>
+								    	<input type="email" class="form-control form-control-white" id="exampleInputEmail2" placeholder="你的邮箱" required>
+								    </div>
+									<div class="form-group">
+								    	<input class="form-control form-control-white" id="exampleInputEmail2" placeholder="你的手机号码" required>
+								    </div>
+									<div class="form-group">
+								    	<input class="form-control form-control-white" id="exampleInputEmail2" placeholder="你的年级" required>
+								    </div>
+									<div class="form-group">
+								    	<input class="form-control form-control-white" id="exampleInputEmail2" placeholder="你的专业" required>
 								    </div>
 								    <div class="form-group">
-								    	<textarea class="form-control form-control-white" placeholder="Write Something" required></textarea>
+								    	<textarea class="form-control form-control-white" placeholder="有什么想说的..." required></textarea>
 								    </div>
 								  <input type="submit" class="btn btn-o-white" value="Say Hello">
 								</form>
